@@ -51,7 +51,7 @@ No necesita dependencias adicionales (usa archivos del sistema)
 > **Recomiendo instalar `tlp` para optimizar la energia**
 
 ```ella
-sudo apt install tlp tlp-rdw
+sudo apt install tlp
 ```
 <br/>
 <br/>
