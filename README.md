@@ -97,6 +97,7 @@ mv ? scripts-help
 <h4>Mostrara un tabla con la descripción de lo que hacen los demás comandos.</h4>
 <br/>
 <h3>bateria</h3>
+<h4>Con este comando podras ver la bateria que tienes, (muy practico si me lo preguntas).</h4>
 <br/>
 <h3>frecuencia</h3>
 <h4>Muestra la frecuencia actual del CPU.</h4>
@@ -104,7 +105,6 @@ mv ? scripts-help
 <h3>temperatura</h3>
 <h4>Muestra la temperatura actual del CPU.</h4>
 <br>
-<h4>Con este comando podras ver la bateria que tienes, muy (practico si me lo preguntas).</h4>
 <h3>brillo</h3>
 <br/>
 <h4>Con este comando puedes bajar y subir el brillo desde la terminal por si estas usando una sesion tty o (por si eres un rarito como yo que no quiere mover el mouse para nada).</h4>
