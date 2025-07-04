@@ -1,0 +1,30 @@
+#!/bin/bash
+
+case "$1" in
++)
+  sudo cpupower frequency-set --governor performance
+  echo "Modo Turbo: CPU al máximo rendimiento"
+  cpupower frequency-info | grep "The governor" | awk '{print $1,$2,$3}'
+  ;;
+=)
+  sudo cpupower frequency-set --governor ondemand
+  echo "Modo Normal: CPU se ajustará al consumo"
+  cpupower frequency-info | grep "The governor" | awk '{print $1,$2,$3}'
+  ;;
+-)
+  sudo cpupower frequency-set --governor powersave
+  echo "Modo Eco: CPU en ahorro de energía"
+  cpupower frequency-info | grep "The governor" | awk '{print $1,$2,$3}'
+  ;;
+?)
+  cpupower frequency-info | grep "The governor" | awk '{print $1,$2,$3}'
+  ;;
+*)
+  echo "Uso: sudo cpu-mode [_______ + ______|_____ = ____|______ - _______|_____ ? _____]"
+  echo "                   [ Aumenta la     | Ocupa la   | Disminuye la   | Muestra     ]"
+  echo "                   [ frecuencia     | frecuencia | frecuencia     | la          ]"
+  echo "                   [ del procesador | que el     | del procesador | frecuencia  ]"
+  echo "                   [ a su máxima    | procesador | a su menor     | del         ]"
+  echo "                   [ capacidad.     | necesite.  | capacidad.     | procesador. ]"
+  ;;
+esac

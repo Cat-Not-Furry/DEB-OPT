@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "¡Por el poder de Debian!"
+sleep 1
+echo "¡Debian... Yo te actualizo!"
+sudo apt full-upgrade
+
+if [ $? -eq 0 ]; then
+  echo "¡Actualización completada con éxito!:v"
+  sleep 1
+else
+  echo "Algo falló... ¿Será que Windows hizo de las suyas? >:v"
+fi
