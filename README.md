@@ -52,6 +52,12 @@ No necesita dependencias adicionales (usa archivos del sistema)
 ```ella
 sudo apt-get install -y lm-sensors bc
 ```
+
+<h3>Y ejecuta</h3>
+
+```ella
+sudo sensors-detect
+```
 > [!TIP]
 > **Recomiendo instalar `tlp` para optimizar la energia**
 
