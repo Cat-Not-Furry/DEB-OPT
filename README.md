@@ -122,7 +122,7 @@ mv ? scripts-help
 > **Si usas mucho `cpu-mode +` procura hacerle manteniminto preventivo más frecuentemente, debido al sobrecalentamiento por usar la frecuencia maxima.**
 <h3>actualizar</h3>
 <br/>
-<h4>Con este comando actualizas el sistema operativo, para mayor seguridad necesitas confirmar la descarga de los paquetes.</h4>
+<h4>Con este comando actualizas el sistema operativo, para mayor seguridad se recomienda hacer este proceso manualmente.</h4>
 <br/>
 Creditos a DeepSeek y a ChatGPT, por ayudarme a optimizar mi laptop.<br/>
 https://www.deepseek.com/<br/>
