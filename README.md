@@ -11,14 +11,14 @@
 
 > [!NOTE]
 > **Por el momento los scripts solo funcionaran en `Arch Linux` y actualmente en `Debian Linux`, despues creare otros repositorios. \
-> Asegurate de tener las siguientes herramientas para poder ejecutar 3/5 scripts que las necesitan. \
+> Asegurate de tener las siguientes herramientas para poder ejecutar 5/7 scripts que las necesitan. \
 > Asi mismo le recomiendo actualizar su sistema antes de instalar.**
 
 ```ella
 sudo apt full-upgrade
 ```
 <br/>
-<h2>Para configurar el la frecuencia del procesador:</h2>
+<h2>Para configurar el la frecuencia del procesador y ver la frecuencia del mismo:</h2>
 
 ```ella
 sudo apt-get install -y linux-tools-common linux-tools-generic cpufrequtils
@@ -46,6 +46,11 @@ sudo apt-get install -y brightnessctl
 
 ```ella
 No necesita dependencias adicionales (usa archivos del sistema)
+```
+<h2>Ver la temperatua del CPU</h2>
+
+```ella
+sudo apt-get install -y lm-sensors bc
 ```
 > [!TIP]
 > **Recomiendo instalar `tlp` para optimizar la energia**
@@ -93,6 +98,12 @@ mv ? scripts-help
 <br/>
 <h3>bateria</h3>
 <br/>
+<h3>frecuencia</h3>
+<h4>Muestra la frecuencia actual del CPU.</h4>
+<br>
+<h3>temperatura</h3>
+<h4>Muestra la temperatura actual del CPU.</h4>
+<br>
 <h4>Con este comando podras ver la bateria que tienes, muy (practico si me lo preguntas).</h4>
 <h3>brillo</h3>
 <br/>
